@@ -98,7 +98,7 @@ SSH into the control node and follow the steps below:
 - Update the host file to include the IP addresses of each group including the machines to monitor and the ELK server as a group. 
 - Run the playbook, and navigate ELK server and then http://40.77.26.232:5601/app/kibana to check that the installation worked as expected.
 
-Questions:
+##Questions:
 - Which file is the playbook? Where do you copy it? 
   - The playbook file is elkproject.yml and it is copied to ansible container. 
 - Which file do you update to make Ansible run the playbook on a specific machine? 
@@ -107,4 +107,3 @@ Questions:
   - The host file contains groups identified with [brackets] then the playbook will specific which group it applies to.
 - Which URL do you navigate to in order to check that the ELK server is running? 
   - http://[ELK_Server_Public_IP:5601/app/kibana
-
